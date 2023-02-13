@@ -1,6 +1,6 @@
 """
 Database Models.
-"""
+
 from django.conf import settings
 from django.db import models
 from django.contrib.auth.models import (
@@ -9,8 +9,7 @@ from django.contrib.auth.models import (
     PermissionsMixin,
 )
 
-""" User configurations with email ready
-
+## User configurations with email ready
 class UserManager(BaseUserManager):
 
     def create_user(self, email, password=None, **extra_fields):        
@@ -41,4 +40,5 @@ class User(AbstractBaseUser, PermissionsMixin):
     objects = UserManager()
 
     USERNAME_FIELD = 'email'
+    
 """

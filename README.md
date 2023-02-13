@@ -9,6 +9,5 @@ The first think to you need to do is configure the github secrets and connect wi
 
 Later configure your github actions, in .github folder, if you configure your Docker Hub credentials you only check if variabes are correct in the checks.yml file.
 
-You only need to repo and configure your actions like this:
-
-  *   
+## User configurations
+If you need configure a user specific lables the conf of user is ready to use, only you need to quit the comment and makemigrations.
